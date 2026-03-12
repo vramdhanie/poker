@@ -1,0 +1,13 @@
+[project]
+name = "poker"
+version = "0.1.0"
+description = "Texas Hold'em Poker - Command Line Game"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+poker = "poker.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
